@@ -550,16 +550,51 @@
 // }
 
 //*2* name validation
-
+// function validname(){
+//     var name=document.myform.name1.value;
+//     if(name=="null" || name==""){
+//         alert("Please provide correct name")
+//         return false;
+//     }
+// }
 
 // *3* email
-
+// function validateemail(){
+//     var email2=document.myform.email1.value;
+//     var atposition=email2.indexOf("@");
+//     var dotposition=email2.lastIndexOf(".");
+//     if(atposition < 1 || dotposition < atposition+2 || dotposition+2>= email2.length){
+//     alert("Please enter valid email");
+//     return false;
+//     }
+//     }
 
 // *4* date
-
+// function validdate(){
+//     var curdate=new Date();
+//     var dob2=new Date(document.myform.date1.value);
+//     if(dob2 > curdate){
+// alert("Please enter correct DOB")
+// return false;
+//     }
+// }
 
 // *5* mobile number
+// function mobilevalid(){
+//     var mobile2=document.myform.mobile1.value;
+// //     if(mobile2.length == 10){
+// // return true;
+// //     }
+// //     else{
+// //         alert("Enter 10 digits valid number");
+// //         return false;
+// //     }
 
+// if(mobile2 < 5 || mobile2 > 15){
+//     alert("Please enter value within range");
+//     return false;
+// }
+// }
 
 
 
